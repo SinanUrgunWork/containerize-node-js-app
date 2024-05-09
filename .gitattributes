@@ -1,0 +1,5 @@
+# Treat all HTML files as generated, so they won't be counted in the primary language
+*.html linguist-generated=true
+
+# Ensure all JavaScript files are counted
+*.js linguist-detectable=true
