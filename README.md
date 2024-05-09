@@ -50,6 +50,7 @@ The frontend service listens on port `3000` and serves a static HTML form where 
    cd <project-directory>
 ## Build and Run with Docker Compose:
 This command will build both the frontend and backend services and start them in the background.
+```bash
 docker-compose up --build -d
 ## Access the Application:
 Visit http://localhost:3000/ to open the subscription form.
