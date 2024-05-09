@@ -13,20 +13,20 @@ The application is divided into two separate services:
 - **Containerization:** Docker, Docker Compose
 
 ## Directory Structure
-project/
-│
-├── backend/
-│ ├── app.js
-│ ├── Dockerfile
-│ └── package.json
-│
-├── frontend/
-│ ├── app.js
-│ ├── Dockerfile
-│ ├── package.json
-│ └── index.html
-│
-└── docker-compose.yml
+project/  
+│  
+├── backend/  
+│ ├── app.js  
+│ ├── Dockerfile  
+│ └── package.json  
+│  
+├── frontend/  
+│ ├── app.js  
+│ ├── Dockerfile  
+│ ├── package.json  
+│ └── index.html  
+│  
+└── docker-compose.yml  
 
 ### Backend Service
 The backend service listens on port `3001` and accepts form submissions via a `/subscribe` API endpoint. It logs the submitted email addresses to the console.
